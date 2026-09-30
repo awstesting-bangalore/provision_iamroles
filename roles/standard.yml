@@ -22,73 +22,14 @@ standard:
     - AE-AWS-ENG-ARCHIVE
     
   Technology:
-    - AE-AWS-AUDITOR:
-        - AE-AWS-AUDITOR-POL
-    - AE-AWS-BI
-    - AE-AWS-BIADMIN
-    - AE-AWS-BROADOPS
-    - AE-AWS-DATAVA:
-        - AE-AWS-DATAVA-POL1
-    - AE-AWS-DBASS
-    - AE-AWS-DEVELOPERS:
-        - AE-AWS_DEVELOPERS-POL1
-    - AE-AWS-DEVELOPERS-ME
-    - AE-AWS-DEVOPS:
-        - AE-AWS-DEVOPS-NONPROD-POL1
-        - AE-AWS-DEVOPS-NONPROD-POL2
-        - AE-AWS-DEVOPS-NONPROD-POL3
-        - AE-AWS-DEVOPS-PROD-POL1
-        - AE-AWS-DEVOPS-PROD-POL2
-    - AE-AWS-DEVOPSADMIN:
-        - AE-AWS-DEVOPSADMIN-POL
-    - AE-AWS-ENG-ARCHIVE
-    - AE-AWS-ENG-DEVELOPERS
-    - AE-AWS-ENG-MEDIAOPS
-    - AE-AWS-INFRENG:
-        - ReadOnlyAccess
-        - AE-INFRENG-POL
-        - AE-INFRENG-POL-2
-    - AE-AWS-L1TECHOPS:
-        - ReadOnlyAccess
-        - AE-AWS-L1TECHOPS-POL
-    - AE-AWS-MPXDEV
-    - AE-AWS-NETWORK:
-        - AE-NETOWRK-POL
-    - AE-AWS-QA:
-        - AE-AWS-QA-POL
-    - AE-AWS-RESEARCH
-    - AE-AWS-RO
-    - AE-AWS-RW
-    - AE-AWS-SEC:
-        - SecurityAudit
-        - AE-CF-Pol
-        - AE-GaurdDuty-Pol
-    - AE-AWS-TECHADMIN:
+
+    - AG-Test-StandardRole-1:
         - AdministratorAccess
-        - AE-AWS-ADMIN-POL
-    - AE-AWS-TECHLAB
-    - AE-AWS-TECHLABADMIN
-    - AE-AWS-TECHOPS:
-        - ReadOnlyAccess
-        - AE-AWS-TechOps-Pol
-        - AE-AWS-L1TECHOPS-POL
-    - AE-AWS-VIEWADMIN
-    - AE-AMI-AUDIT:
-        - AmazonEC2ReadOnlyAccess
-        - AmazonRDSReadOnlyAccess
-    - AE-AWS-IAM
-    - AE-COMP-AUDIT:
-        - ReadOnlyAccess
-    - AE-Developer
-    - AE-Engineering
-    - AE-RI-INVENTORY:
-        - AmazonRedshiftReadOnlyAccess
-        - AmazonEC2ReadOnlyAccess
-        - AmazonElastiCacheReadOnlyAccess
-        - AmazonRDSReadOnlyAccess
-    - AE-Security
-    - ae_tag_volume_lambda_function:
-        - ae_tag_volume_policy
+        - AG-Test-StandardRole-1
+    - AG-Test-StandardRole-2:
+        - AdministratorAccess
+        - AG-Test-StandardRole-1
+        - AG-Test-StandardRole-2   
 
   Production Engineering:
     - AE-AWS-TECHLABADMIN

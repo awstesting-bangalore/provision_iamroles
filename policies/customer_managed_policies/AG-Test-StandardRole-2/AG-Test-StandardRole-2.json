@@ -1,0 +1,36 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [               
+                "organizations:*",
+                "cognito-identity:*",
+                "chatbot:*",
+                "cloudtrail:*",
+                "cloudhsm:*",
+                "guardduty:*",
+                "license-manager:*",
+                "logs:*",
+				"sdb:*",
+                "awsbillingconsole:*",
+                "aws-portal:*",                
+                "budgets:*",
+                "cur:*",				                
+                "route53domains:*",
+                "autoscaling:*",
+                "elasticloadbalancing:*",
+                "acm:*"
+            ],
+            "Resource": "*"
+        },
+
+			{
+        "Sid": "VisualEditor1",
+				"Effect": "Allow",
+				"Action": "dax:*",
+				"Resource": "arn:aws:dax:*:*:cache/*"
+			}
+		]
+	}
