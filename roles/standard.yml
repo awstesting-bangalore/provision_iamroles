@@ -30,6 +30,7 @@ standard:
         - AdministratorAccess
         - AG-Test-StandardRole-1
         - AG-Test-StandardRole-2   
+        - AG-Test-StandardRole-Test
 
   Production Engineering:
     - AE-AWS-TECHLABADMIN
