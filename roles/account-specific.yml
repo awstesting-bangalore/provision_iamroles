@@ -3,13 +3,3 @@
 # Custom policies will be auto-discovered from the respective Role folder under policies/customer_managed_policies/{roleName}/ and attached to the role.
 # Trust relationships will be auto-discovered from the respective Role folder under trust_relationships/{roleName}/ and attached to the role.
 
-
-account-specific:
-  564565431212:
-    - AE-AWS-PRLOPS
-  544556353232:
-    - AE-AWS-SPLOPS:
-        - ReadOnlyAccess
-  4545464666344:
-    - AE-AWS-PRLOPS
-    - AE-AWS-SILOPS
