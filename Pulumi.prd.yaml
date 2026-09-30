@@ -1,0 +1,8 @@
+environment:
+  - inf-aws-newaccount-prov/provision-iamroles
+config:
+  awsroles:importExisting: true
+  awsroles:assumeRole: AE-Administrator
+  awsroles:orgAccountId:
+    - 533702098697
+  #  - 156256018153

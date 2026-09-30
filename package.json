@@ -1,0 +1,16 @@
+{
+    "name": "infra-aws-iamroles",
+    "main": "index.ts",
+    "devDependencies": {
+        "@types/js-yaml": "^4.0.9",
+        "@types/node": "^18",
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "@aws-sdk/client-iam": "^3.1119.0",
+        "@aws-sdk/credential-providers": "^3.1119.0",
+        "@pulumi/aws": "^7.0.0",
+        "@pulumi/awsx": "^3.0.0",
+        "@pulumi/pulumi": "^3.113.0"
+    }
+}

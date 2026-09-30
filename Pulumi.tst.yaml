@@ -1,0 +1,15 @@
+environment:
+  - inf-aws-newaccount-prov/provision-iamroles
+config:
+  awsroles:statictags:
+    Automation: Pulumi
+    Application ID: AWS
+  awsroles:importExisting: true
+  awsroles:identityAccountId: "863748637175"
+  awsroles:orgAccountId:
+    - 533702098697
+  #  - 156256018153
+
+  # awsroles:existingAccountRoleArn: "arn:aws:iam::*:role/AE-Administrator"
+  # awsroles:excludedAccounts:
+  # awsroles:allowedAccounts:
