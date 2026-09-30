@@ -1,0 +1,18 @@
+{
+    "name": "provision-iamroles",
+    "version": "0.0.1",
+    "main": "index.ts",
+    "devDependencies": {
+        "@types/js-yaml": "^4.0.9",
+        "@types/node": "^18",
+        "typescript": "^5.9.3"
+    },
+    "dependencies": {
+        "@aws-sdk/client-iam": "^3.0.0",
+        "@aws-sdk/client-sts": "^3.1134.0",
+        "@aws-sdk/credential-providers": "^3.0.0",
+        "@pulumi/aws": "^7.0.0",
+        "@pulumi/pulumi": "^3.261.0",
+        "js-yaml": "^4.1.0"
+    }
+}
