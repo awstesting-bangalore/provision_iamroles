@@ -1,0 +1,19 @@
+# Global IAM Roles Configuration
+# These roles are deployed to ALL accounts.
+# AWS Managed Policies will be auto-discovered from policies/aws_managed_policies/{roleName}/ folder.
+# Customer Managed policies will be auto-discovered from policies/customer_managed_policies/{roleName}/ folder.
+# Trust relationships will be auto-discovered from the respective Role folder under trust_relationships/{roleName}/ and attached to the role.
+
+global:
+  - CROSS-ACC-ARMADA:
+      - ReadOnlyAccess
+  - AE-AWS-IAC:
+      - AdministratorAccess
+  - AE-AWS-ADO:
+      - AdministratorAccess
+  - AE-Administrator:
+      - AdministratorAccess
+
+# global:
+#   - AE-Test-GlobalRole:
+#       - ReadOnlyAccess
