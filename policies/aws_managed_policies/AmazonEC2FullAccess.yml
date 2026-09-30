@@ -1,0 +1,2 @@
+name: AmazonEC2FullAccess
+arn: arn:aws:iam::aws:policy/AmazonEC2FullAccess
