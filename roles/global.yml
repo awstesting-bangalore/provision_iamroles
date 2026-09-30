@@ -5,15 +5,8 @@
 # Trust relationships will be auto-discovered from the respective Role folder under trust_relationships/{roleName}/ and attached to the role.
 
 global:
-  - CROSS-ACC-ARMADA:
-      - ReadOnlyAccess
-  - AE-AWS-IAC:
+  - AG-Administrator:
       - AdministratorAccess
-  - AE-AWS-ADO:
+  - AG-Test-GlobalRole:
       - AdministratorAccess
-  - AE-Administrator:
-      - AdministratorAccess
-
-# global:
-#   - AE-Test-GlobalRole:
-#       - ReadOnlyAccess
+      - AG-Test-GlobalRole
